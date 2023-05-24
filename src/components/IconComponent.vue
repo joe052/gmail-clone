@@ -8,6 +8,11 @@
     >
       <component :is="icon" :size="iconSize" :fillColor="iconColor" />
     </div>
+    <div
+    :id="`tooltip-no-arrow-${iconString}`"
+    :role="tooltip"
+      class="inline-block absolute invisible text-xs z-10 py-1 px-2 font-medium text-white rounded-sm shadow-sm opacity-0 tooltip dark:bg-gray-600 delay-150"
+    >{{ text }}</div>
   </div>
 </template>
 
@@ -21,7 +26,7 @@ const props = defineProps({
   text: String,
   hoverColor: String,
 });
-const { iconString, iconColor, text, hoverColor } = toRefs(props);
+const { iconString, iconColor, hoverColor } = toRefs(props);
 let icon = null;
 if (iconString.value === "menu") {
   icon = menuIcon;
