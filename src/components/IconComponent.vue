@@ -24,7 +24,7 @@ import MenuIcon from "vue-material-design-icons/Menu.vue";
 import MagnifyIcon from "vue-material-design-icons/Magnify.vue";
 import TuneIcon from "vue-material-design-icons/Tune.vue";
 import HelpIcon from "vue-material-design-icons/Help.vue";
-import CogOutlineIcon from "vue-material-design-icons/CogsOutline.vue";
+import CogOutlineIcon from "vue-material-design-icons/CogOutline.vue";
 import AppsIcon from "vue-material-design-icons/Apps.vue";
 import ArrowLeftIcon from "vue-material-design-icons/ArrowLeft.vue";
 import TrashCanOutlineIcon from "vue-material-design-icons/TrashCanOutline.vue";
