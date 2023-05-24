@@ -24,6 +24,10 @@ import MenuIcon from "vue-material-design-icons/Menu.vue";
 import MagnifyIcon from "vue-material-design-icons/Magnify.vue";
 import TuneIcon from "vue-material-design-icons/Tune.vue";
 import HelpIcon from "vue-material-design-icons/Help.vue";
+import CogOutlineIcon from "vue-material-design-icons/CogsOutline.vue";
+import AppsIcon from "vue-material-design-icons/Apps.vue";
+import ArrowLeftIcon from "vue-material-design-icons/ArrowLeft.vue";
+import TrashCanOutlineIcon from "vue-material-design-icons/TrashCanOutline.vue";
 const props = defineProps({
   iconString: String,
   iconColor: String,
@@ -35,5 +39,26 @@ const { iconString, iconColor, text, hoverColor } = toRefs(props);
 let icon = null;
 if (iconString.value === "menu") {
   icon =  MenuIcon;
+}
+if (iconString.value === "magnify") {
+  icon =  MagnifyIcon;
+}
+if (iconString.value === "tune") {
+  icon =  TuneIcon;
+}
+if (iconString.value === "help") {
+  icon =  HelpIcon;
+}
+if (iconString.value === "menu") {
+  icon =  CogOutlineIcon;
+}
+if (iconString.value === "menu") {
+  icon =  AppsIcon;
+}
+if (iconString.value === "menu") {
+  icon =  ArrowLeftIcon;
+}
+if (iconString.value === "menu") {
+  icon =  TrashCanOutlineIcon;
 }
 </script>
