@@ -2,7 +2,14 @@
   <div id="EmailView" class="bg-gray-50 h-screen">
     <div class="flex items-center p-2">
       <div class="flex justify-center items-center px-3.5">
-        <IconComponent iconString="menu" iconColor="#636363" :iconSize="19" />
+        <IconComponent
+          iconString="menu"
+          iconColor="#636363"
+          :iconSize="19"
+          hoverColor="hover:bg-gray-200"
+          text="Main Menu"
+          class="-ml-2 mr-2"
+        />
       </div>
     </div>
   </div>
