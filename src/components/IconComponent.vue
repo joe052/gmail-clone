@@ -38,27 +38,27 @@ const props = defineProps({
 const { iconString, iconColor, text, hoverColor } = toRefs(props);
 let icon = null;
 if (iconString.value === "menu") {
-  icon =  MenuIcon;
+  icon = MenuIcon;
 }
 if (iconString.value === "magnify") {
-  icon =  MagnifyIcon;
+  icon = MagnifyIcon;
 }
 if (iconString.value === "tune") {
-  icon =  TuneIcon;
+  icon = TuneIcon;
 }
 if (iconString.value === "help") {
-  icon =  HelpIcon;
+  icon = HelpIcon;
 }
-if (iconString.value === "menu") {
-  icon =  CogOutlineIcon;
+if (iconString.value === "cog") {
+  icon = CogOutlineIcon;
 }
-if (iconString.value === "menu") {
-  icon =  AppsIcon;
+if (iconString.value === "apps") {
+  icon = AppsIcon;
 }
-if (iconString.value === "menu") {
-  icon =  ArrowLeftIcon;
+if (iconString.value === "back") {
+  icon = ArrowLeftIcon;
 }
-if (iconString.value === "menu") {
-  icon =  TrashCanOutlineIcon;
+if (iconString.value === "trash") {
+  icon = TrashCanOutlineIcon;
 }
 </script>
