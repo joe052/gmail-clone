@@ -20,8 +20,7 @@
             iconColor="#636363"
             :iconSize="19"
             hoverColor="hover:bg-gray-200"
-            text="Main Menu"
-            class="-ml-2 mr-2"
+            text="Search"
           />
         </div>
       </div>
