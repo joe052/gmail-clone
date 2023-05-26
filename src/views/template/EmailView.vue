@@ -22,6 +22,7 @@
             hoverColor="hover:bg-gray-200"
             text="Search"
           />
+          <input placeholder="Search mail" class="" type="text">
         </div>
       </div>
     </div>
