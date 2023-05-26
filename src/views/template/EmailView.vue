@@ -13,6 +13,9 @@
 
         <img width="107" src="../../../public/img/gmail.png" alt="" />
       </div>
+      <div class="flex w-full justify-between">
+        <div class="w-full bg-gray-200 flex items-center p-1 px-2 rounded-lg"></div>
+      </div>
     </div>
   </div>
 </template>
