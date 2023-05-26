@@ -11,7 +11,7 @@
           class="-ml-2 mr-2"
         />
 
-        <img width="107" src="../../../public/gmail.png" alt="" />
+        <img width="107" src="../../../public/img/gmail.png" alt="" />
       </div>
     </div>
   </div>
