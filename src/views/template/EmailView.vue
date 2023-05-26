@@ -10,6 +10,8 @@
           text="Main Menu"
           class="-ml-2 mr-2"
         />
+
+        <img width="107" src="../../../public/gmail.png" alt="" />
       </div>
     </div>
   </div>
