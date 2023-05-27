@@ -44,4 +44,10 @@
 import IconComponent from "@/components/IconComponent.vue";
 </script>
 
-<style></style>
+<style lang="scss">
+#EmailView{
+  .logo-section{
+    min-width: 250px;
+  }
+}
+</style>
