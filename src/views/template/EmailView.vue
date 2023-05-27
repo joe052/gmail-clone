@@ -32,7 +32,7 @@
             iconColor="#636363"
             :iconSize="19"
             hoverColor="hover:bg-gray-200"
-            text="Search"
+            text="Show search options"
           />
         </div>
       </div>
