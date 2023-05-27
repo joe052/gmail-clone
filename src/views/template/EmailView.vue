@@ -27,6 +27,13 @@
             class="w-full h-10 bg-gray-200 border-transparent border-none focus:ring-0 outline-none placeholder-gray-900"
             type="text"
           />
+          <IconComponent
+            iconString="tune"
+            iconColor="#636363"
+            :iconSize="19"
+            hoverColor="hover:bg-gray-200"
+            text="Search"
+          />
         </div>
       </div>
     </div>
