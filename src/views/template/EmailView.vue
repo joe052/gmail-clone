@@ -35,6 +35,7 @@
             text="Show search options"
           />
         </div>
+        <div class="flex w-32 justify-between"></div>
       </div>
     </div>
   </div>
