@@ -1,3 +1,5 @@
 <template>
-    <div id="UserComponent"></div>
+    <div id="UserComponent">
+        <img src="" alt="">
+    </div>
 </template>
