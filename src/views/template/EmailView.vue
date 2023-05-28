@@ -43,6 +43,13 @@
             hoverColor="hover:bg-gray-200"
             text="Settings"
           />
+          <IconComponent
+            iconString="cog"
+            iconColor="#636363"
+            :iconSize="19"
+            hoverColor="hover:bg-gray-200"
+            text="Settings"
+          />
         </div>
       </div>
     </div>
@@ -54,8 +61,8 @@ import IconComponent from "@/components/IconComponent.vue";
 </script>
 
 <style lang="scss">
-#EmailView{
-  .logo-section{
+#EmailView {
+  .logo-section {
     min-width: 250px;
   }
 }
