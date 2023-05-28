@@ -1,5 +1,5 @@
 <template>
     <div id="UserComponent">
-        <img src="" alt="">
+        <img src="https://via.placeholder.com/40">
     </div>
 </template>
