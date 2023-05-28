@@ -48,7 +48,7 @@
             iconColor="#636363"
             :iconSize="19"
             hoverColor="hover:bg-gray-200"
-            text="Settings"
+            text="Google apps"
           />
         </div>
       </div>
