@@ -44,7 +44,7 @@
             text="Settings"
           />
           <IconComponent
-            iconString="cog"
+            iconString="apps"
             iconColor="#636363"
             :iconSize="19"
             hoverColor="hover:bg-gray-200"
